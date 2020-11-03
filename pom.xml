@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>part1_component_autowired</module>
+        <module>part2_autowired_primary_qualifier</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
