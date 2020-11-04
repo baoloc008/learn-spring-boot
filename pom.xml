@@ -7,6 +7,7 @@
         <module>part1_component_autowired</module>
         <module>part2_autowired_primary_qualifier</module>
         <module>part3_bean_life_cycle_postconstruct_predestroy</module>
+        <module>part4_component_service_repository</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
