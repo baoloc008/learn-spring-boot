@@ -10,6 +10,7 @@
         <module>part4_component_service_repository</module>
         <module>part5_component_scan</module>
         <module>part6_configuration_bean</module>
+        <module>part7_application_config_value</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -31,6 +32,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <!--spring mvc, rest-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
