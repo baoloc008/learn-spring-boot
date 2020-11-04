@@ -9,6 +9,7 @@
         <module>part3_bean_life_cycle_postconstruct_predestroy</module>
         <module>part4_component_service_repository</module>
         <module>part5_component_scan</module>
+        <module>part6_configuration_bean</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
