@@ -11,5 +11,6 @@ public class App {
 
         DatabaseConnector databaseConnector = context.getBean(DatabaseConnector.class);
         databaseConnector.connect();
+        System.out.println("Hello world");
     }
 }

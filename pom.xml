@@ -11,6 +11,7 @@
         <module>part5_component_scan</module>
         <module>part6_configuration_bean</module>
         <module>part7_application_config_value</module>
+        <module>part8_controller_thymeleaf</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -38,7 +39,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+        <!-- thymeleaf -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
