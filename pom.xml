@@ -13,6 +13,7 @@
         <module>part7_application_config_value</module>
         <module>part8_controller_thymeleaf</module>
         <module>part9_thymeleaf_expression</module>
+        <module>part10_requestmapping_postmapping_modelattribute_requestparam</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
