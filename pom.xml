@@ -16,6 +16,7 @@
         <module>part10_requestmapping_postmapping_modelattribute_requestparam</module>
         <module>part11_spring_jpa_mysql</module>
         <module>part12_spring_jpa_method_query</module>
+        <module>part13_todo_app</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
