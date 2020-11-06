@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>part10_requestmapping_postmapping_modelattribute_requestparam</artifactId>
+    <artifactId>part09_thymeleaf_expression</artifactId>
     <dependencies>
         <!--spring mvc, rest-->
         <dependency>

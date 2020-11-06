@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Part03" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="part03_bean_life_cycle_postconstruct_predestroy" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.part03_bean_life_cycle_postconstruct_predestroy.App" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

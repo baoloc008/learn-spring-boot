@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>part1_component_autowired</module>
-        <module>part2_autowired_primary_qualifier</module>
-        <module>part3_bean_life_cycle_postconstruct_predestroy</module>
-        <module>part4_component_service_repository</module>
-        <module>part5_component_scan</module>
-        <module>part6_configuration_bean</module>
-        <module>part7_application_config_value</module>
-        <module>part8_controller_thymeleaf</module>
-        <module>part9_thymeleaf_expression</module>
+        <module>part01_component_autowired</module>
+        <module>part02_autowired_primary_qualifier</module>
+        <module>part03_bean_life_cycle_postconstruct_predestroy</module>
+        <module>part04_component_service_repository</module>
+        <module>part05_component_scan</module>
+        <module>part06_configuration_bean</module>
+        <module>part07_application_config_value</module>
+        <module>part08_controller_thymeleaf</module>
+        <module>part09_thymeleaf_expression</module>
         <module>part10_requestmapping_postmapping_modelattribute_requestparam</module>
         <module>part11_spring_jpa_mysql</module>
         <module>part12_spring_jpa_method_query</module>
@@ -32,42 +32,6 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <!--spring mvc, rest-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <!-- thymeleaf -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.16</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
-
     <build>
         <plugins>
             <plugin>

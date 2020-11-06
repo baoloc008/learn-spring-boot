@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Part02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="part02_autowired_primary_qualifier" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.part02_autowired_primary_qualifier.App" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
