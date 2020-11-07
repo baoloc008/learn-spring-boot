@@ -16,9 +16,9 @@
 <body>
 <h1>To-do</h1>
 
-<form method="post" th:action="@{/addtodo}" th:object="${todo}">
-    <p>title: <input th:field="*{title}" type="text"/></p>
-    <p>detail: <input th:field="*{detail}" type="text"/></p>
+<form method="post" th:action="@{/addtodo}">
+    <p>title: <input th:name="title" type="text"/></p>
+    <p>detail: <input th:name="detail" type="text"/></p>
     <p>
         <button class="btn btn-success" type="submit">Add</button>
     </p>
