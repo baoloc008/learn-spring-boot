@@ -17,6 +17,7 @@
         <module>part11_spring_jpa_mysql</module>
         <module>part12_spring_jpa_method_query</module>
         <module>part13_todo_app</module>
+        <module>part14_restful_api_restcontroller_pathvariable_requestbody</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
