@@ -19,6 +19,7 @@
         <module>part13_todo_app</module>
         <module>part14_restful_api_restcontroller_pathvariable_requestbody</module>
         <module>part15_exceptionhandler_restcontrolleradvice_controlleradvice_responsestatus</module>
+        <module>part16_configurationproperties</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
