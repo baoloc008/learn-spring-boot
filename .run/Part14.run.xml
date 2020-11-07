@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Part14" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="part14_restful_api_restcontroller_pathvariable_requestbody" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.part14_restful_api_restcontroller_pathvariable_requestbody.App" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
